@@ -34,9 +34,9 @@ btn.addEventListener('click', () =>{
             app.innerHTML = text;
         }
     }
-    // setTimeout(function disappear(){
-    //     app.innerHTML = '';
-    // }, 1000 * 28)
+     setTimeout(function disappear(){
+         app.innerHTML = '';
+     }, 1000 * 28)
     setTimeout(function onclick(){
         for(let i = 0; i < 5; i++){
             numUtente[i] = parseInt(prompt("Inserisci i numeri appena visti"));
@@ -61,7 +61,7 @@ btn.addEventListener('click', () =>{
             }
         }
 
-    },1000)
+    },1000 * 30)
 })
 
 
